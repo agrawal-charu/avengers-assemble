@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Assemble</title>
+    <script src="https://kit.fontawesome.com/3276eb920a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <img id="image" src="Glass\glasses1.png" style="display: none;"><!--Used for filter in canvas-->
+        <div id="game">
+            <div id="score">
+                Score: <div id="s">0</div>
+            </div>
+            <div id="stones">
+                <img src="Colors\purple.png" class="stone" id="s1">
+                <img src="Colors\blue.png" class="stone" id="s2">
+                <img src="Colors\yellow.png" class="stone" id="s3">
+                <img src="Colors\red.png" class="stone" id="s4">
+                <img src="Colors\orange.png" class="stone" id="s5">
+                <img src="Colors\green.png" class="stone" id="s6">
+            </div>
+            <div id="desc">
+                <p id="descp">The Power Stone</p>
+            </div>
+            <div id="block"></div>
+            <div id="character"></div>   
+            <div id="level" style="display: none;">
+                Level <div id="l">1</div>
+            </div> 
+            <div class="button">
+            <button id="btn" onclick="start()">Start</button>
+            </div>
+            <div id="again">
+                <div id="text">You won!</div>
+                <div id="finalscore">
+                    Score: <div id="score1"></div>
+                </div>
+                <button id="btn" onclick="start()">Play Again</button>
+            </div>
+        </div>
+        <div id="title">
+        </div>
+        <div style="height: 200px;">
+            <video id="video" autoplay style="display: none;"></video>
+            <canvas id="canvas" width="400px" height="200px" style="transform: rotateY(180deg);"></canvas>
+            <canvas id="can" width="400px" height="200px" style="transform: rotateY(180deg);"></canvas>
+        </div>
+    </div>
+    <button id="home"  onclick="location.href = 'home.html';"><i class="fa-solid fa-house" style="font-size:20px;"></i></button>
+    <button id="music"><i id="icon" class="fa-solid fa-music" style="font-size:20px;"></i></button>
+    <audio style="display: none;" id="audio" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/blazeface"></script>
+<script src ="script.js"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@
 This is a game inspired by the avengers end game movie. It uses face recognition and is controlled by the user's head movements.
 ## Technologies
 Project is created with:
-* HTML, CSS, Javascript 
+* HTML, CSS, JavaScript 
 * TensorFlow
 ## Features 
 * 6 levels to find the 6 infinity stones 

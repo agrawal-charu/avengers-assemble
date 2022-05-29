@@ -15,6 +15,6 @@ Project is created with:
 * Filters (glasses) applied to user's face
 ## Functioning
 1. The model is first loaded and then the game starts.
-2. When the game ends i.e. either the user loses or wins, the model stops collecting data and the web cam pauses. 
+2. When the game ends i.e. either the user loses or wins, the model stops collecting data and the shown video pauses. 
 3. The position of the block is based on the angle the head is tilted in. It is calculated by using the two eye landmarks.
 4. The angle of the filter changes with the angle of the head tilt. 

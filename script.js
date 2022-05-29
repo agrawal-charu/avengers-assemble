@@ -91,7 +91,7 @@ function start(){
     document.getElementById("l").innerHTML=1;
     document.getElementById("descp").innerHTML=stones[0];    
 
-    for (var i =1;i<6;i++){
+    for (var i =1;i<=6;i++){
         var id = "s"+i;
         document.getElementById(id).style.opacity=0.2;
     }
@@ -187,6 +187,7 @@ function over (){
 
     if (counter==total*2){
         document.getElementById("text").innerHTML="You Won!";
+        document.getElementById("s6").style.opacity=1;
     }else{
         document.getElementById("text").innerHTML="Game over!";
     }

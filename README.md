@@ -4,7 +4,7 @@
 * [Technologies](#technologies)
 * [Features](#features)
 ## General info
-This is a game inspired by the avengers end game movie. It uses face recognition and is controlled by the user's head movements.
+This is a game inspired by the Avengers: Endgame movie. It uses face recognition and is controlled by the user's head movements.
 ## Technologies
 Project is created with:
 * HTML, CSS, JavaScript 

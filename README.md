@@ -5,7 +5,7 @@
 * [Features](#features)
 * [Functioning](#functioning)
 ## Introduction
-This is a game inspired by the Avengers: Endgame movie. It uses face recognition and is controlled by the user's head movements. The game is in the form of a falling blocks puzzle and the aim is to obtain all six infinity stones. 
+This is a game inspired by the Avengers: Endgame movie. It uses face recognition and is controlled by the user's head movements. The game is in the form of a falling blocks puzzle and the aim is to obtain all six infinity stones while avoiding the falling blocks. 
 ## Technologies
 Project is created with:
 * HTML, CSS, JavaScript 
